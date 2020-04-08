@@ -1,0 +1,6 @@
+webapp:
+  image: 51092835/softrams-ui-image:v1
+  ports:
+    - "80:80"
+  volumes:
+    - "/data"
